@@ -50,7 +50,7 @@ exports.loginController = (req, res) => {
           "action": "create",
           "tool_id": "536"
         },
-        "iss": "http://localhost:5000/",
+        "iss": toolData.launch_url,
         "sub": platform.client_id,
         "aud": "",
         "iat": Date.now(),
